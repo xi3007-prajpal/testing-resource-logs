@@ -1,0 +1,11 @@
+apiVersion: v0.1.0
+envs:
+- name: dev-environment
+  path: .xlr8s/envs/dev-environment/env.yaml
+git:
+  repoUrl: git@github.com:xi3007-prajpal/testing-resource-logs.git
+  revision: main
+name: event-logs-testing-8266
+vars:
+  apps: null
+  policy: null
